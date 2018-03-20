@@ -33,15 +33,15 @@
         name: Create Sale Order
         url: admin_order_new
 - id: customer
-  name: Membership Management
+  name: Customer Management
   has_child: true
   icon: cb-users
   child:
       - id: customer_master
-        name: Member Master
+        name: Customer Master
         url: admin_customer
       - id: customer_edit
-        name: Member Register
+        name: Customer Register
         url: admin_customer_new
 
 - id: content
