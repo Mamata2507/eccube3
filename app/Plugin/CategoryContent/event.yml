@@ -1,0 +1,14 @@
+eccube.event.render.product_list.before:
+    - [onRenderProductListBefore, NORMAL]
+eccube.event.render.admin_product_category.before:
+    - [onRenderAdminProductCategoryBefore, NORMAL]
+eccube.event.controller.admin_product_category.before:
+    - [onControllerAdminProductCategoryBefore, NORMAL]
+eccube.event.controller.admin_product_category.finish:
+    - [onControllerAdminProductCategoryFinish, NORMAL]
+admin.product.category.index.initialize:
+    - [onAdminProductCategoryIndexInitialize, NORMAL]
+admin.product.category.index.complete:
+    - [onAdminProductCategoryIndexComplete, NORMAL]
+front.product.index.initialize:
+    - [onFrontProductIndexInitialize, NORMAL]
